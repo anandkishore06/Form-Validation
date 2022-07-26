@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(117, 130, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-container {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 5px 10px #2b2929;
+    border-radius: 7px;
+}
+
+h2 {
+    margin: 0px 0px 10px 0px;
+}
+
+input {
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    width: 220px;
+    background-color: rgb(160, 206, 247);
+    border-radius: 7px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin: 0px;
+    text-align: left;
+}
